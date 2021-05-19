@@ -117,8 +117,6 @@ for i in range(0, 51, 5):
     print(i)
     #you can use nested loops but make sure to use diffrent variables 
     #while runs until the condition is false 
-     
-
 
 #control statements are available break , continue and pause
 
