@@ -67,3 +67,33 @@ print (tup[2]) # return hey
 tup2 = (6, 7, "wow")
 print (tup + tup2 ) #joins the two tuples together 
 print(tup2[1:2]) #tup splicing returns 7 last index is non inclusive
+
+#condiitinal statements. the statement should return a bool 
+if (5 > 3):
+    print ('Yes it is ')
+#adding another outcomeincase the statemnt is not true 
+if (3 > 10):
+    print ('Yes')
+else: 
+    print("No you are lying")
+    # >= greater than or equal to  <= less than == equal to != no equal to 
+    #elif is basically else if 
+age = 55
+if (age < 13):
+    print ("You are a toddler")
+elif (age < 21 ):
+    print ("You are a teen ")
+else:
+    print ('You are an adult')
+
+# you can also compare more than two conditions using and & or 
+
+#and returns true if both conditions are true
+if( 2 < 5 and 8 > 2):
+    print ("Both passed")
+
+#or return true if one of them is true
+if( 5< 2 or 8> 2):
+    print("One passed")
+
+
