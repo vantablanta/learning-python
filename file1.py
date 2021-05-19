@@ -96,4 +96,3 @@ if( 2 < 5 and 8 > 2):
 if( 5< 2 or 8> 2):
     print("One passed")
 
-
