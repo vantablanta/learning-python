@@ -59,5 +59,11 @@ del students["Bobo"]
 print (students)
 #each Key should be unique,,, dont repeat a key 
 
+#tuples they are imutable sintax below
 
-
+tup = (1, 2, " Hey")
+print (tup)
+print (tup[2]) # return hey 
+tup2 = (6, 7, "wow")
+print (tup + tup2 ) #joins the two tuples together 
+print(tup2[1:2]) #tup splicing returns 7 last index is non inclusive
