@@ -46,5 +46,18 @@ numlist = [1, 10, 50, 2, 6]
 print (max(numlist))
 print(min(numlist))
 
+#dictionaries data structure basically its an object in js
+students = {"Bobo": 12, "Hellen": 15, "Joy": 16}
+print(students)
+#accessing values students[key]
+print (students["Hellen"]) #this will return the age of Hellen 
+#updatng values in the dictionaries
+students["Hellen"] = 10
+print(students)
+#removing a key in a dictionary 
+del students["Bobo"] 
+print (students)
+#each Key should be unique,,, dont repeat a key 
+
 
 
