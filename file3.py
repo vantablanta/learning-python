@@ -37,3 +37,38 @@ help(sent.upper)
 sen = "print('Hello Michelle')"
 eval(sen) #return the string  Hello Michelle
 #6. exec does the same as eval but for complicated code like multiline code 
+
+#7. str converts the input to string 
+#8. float converts the input to decimal number 
+#9. int converts the input to a number 
+print (str(458))
+print (int(78.55))
+print (float(5))
+
+#object oriented programing  consists of classes and objects 
+class person:
+    pass
+p = person () #creating an instance of the person class 
+print(p)
+
+class person:
+    def getName(self):
+        print("Michelle")
+    def getAge(self):
+        print(25)  
+p = person()
+age = p.getAge()
+print(age)
+
+#passing different keys other than self
+class person :
+    def __init__(self, name, age):
+       self.name = name
+       self.age = age
+    def getName(self):
+        print ("My name is "+ self.name)
+    def getAge(self):
+        print ("I am "+ self.age + " years old")
+p = person("Hailey", "16")
+print (p.getAge())
+
