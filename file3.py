@@ -47,9 +47,11 @@ print (float(5))
 
 #object oriented programing  consists of classes and objects 
 class person:
-    pass
-p = person () #creating an instance of the person class 
+    def parent(self):
+        print ("this is the parent")
+p = person() #creating an instance of the person class 
 print(p)
+print (p.parent())
 
 class person:
     def getName(self):
@@ -72,3 +74,25 @@ class person :
 p = person("Hailey", "16")
 print (p.getAge())
 
+#inherintance means basically the child classes inherit from the parent class 
+class parent: 
+    def __init__(self) :
+        print("this is the parent class")
+    def parentFunc(self):
+        print("this is the parent function")
+p = parent()
+print (p.parentFunc())
+class child(parent):
+    def __init__(self):
+        print("this is the child class")
+    def childFunc(self):
+        print("this is the child function ")
+c = child()
+print (c.childFunc())
+#but you can also get the methods(functions stored in 
+# the parent since you inheritd them thru the parent class)
+print (c.parentFunc())
+
+# WHEN A FUNCTION IN THE CHILD CLASS IS SIMILAR TO 
+# ONE IN THE PARENT BUT PRINTING DIFFERENT THINGS TO THE CONSOLE 
+# THE CHILD FUNCTION THATS BEEN REINITILAIZED TAKES PRECEDNCE 
